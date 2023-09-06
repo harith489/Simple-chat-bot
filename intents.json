@@ -1,0 +1,34 @@
+{"intents":  [
+    {"tag": "greetings",
+    "patterns": ["hello","hey","hi","good day", "greetings","what's up"],
+    "responses": ["Hello!","Hey!","What can I do for you?"]
+    },
+    {"tag": "goodbye",
+    "patterns": ["That's all","bye","goodbye","Have a good day", "cya","see you later","catch you later"],
+    "responses": ["Goodbye!","Talk to you later","Sad to see you go :(","What can I do for you?"]
+    },
+    {"tag": "age",
+    "patterns": ["how old","how old is Makjah","what is your age","how old are you", "age?"],
+    "responses": ["My owner Makjah is 45 years old","21 years!"]
+    },
+    {"tag": "name",
+    "patterns": ["name?","what is your name?","who are you","what should i call you", "can you tell me your name"],
+    "responses": ["You can call me Neural!", "My name is Neural", "I'm Neural","My owner names me Neural"]
+    },
+    {"tag": "shop",
+    "patterns": ["Id like to buy something","what are your products?","what do you recommend?","what are you selling"],
+    "responses": ["CartThrift has a load of pre-loved clothes and all of it looks pretty just like brand new!"]
+    },
+    {"tag": "hours",
+    "patterns": ["when are you guys open","what are your hours","can I come by now","what time is good for you", "Should I come now","when are you closed"],
+    "responses": ["CartThrift opens at 10:00AM until 10:00PM"]
+    },
+    {"tag": "price",
+    "patterns": ["how much for the clothes","what is the starting price","are the clothes cheap","is it expensive?"],
+    "responses": ["CartThrift's clothes price starts at RM10 and the most expensive items are around RM100-RM110"]
+    },
+    {"tag": "payment",
+    "patterns": ["can I pay with card","is there a QR code","can i pay with cash","is it cash only"],
+    "responses": ["We accept all kinds of payment from cash, E-Wallet and cards!"]
+    }
+]}
